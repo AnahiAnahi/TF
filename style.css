@@ -1,0 +1,47 @@
+.caja{
+    width: 250px;
+    height: 100px;
+    background-color:rgb(184, 238, 212);
+    border-radius: 10px;
+    margin: 40px 20px;
+    padding: 20px 10px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+
+}
+
+nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+a{
+    text-decoration: none;
+    color: 3f3d56;
+    font-size: 25px;
+
+}
+
+main{
+    width: 100%;
+    position: absolute;
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b9b4b4;
+    color: #3f3d56;
+    padding: 5vh 5vw;
+    min-height: 50vh;
+    text-align: justify;
+
+
+}
